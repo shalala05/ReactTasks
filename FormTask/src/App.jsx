@@ -2,7 +2,7 @@ import React from 'react';
 import UserLogin from './Form';
 const App = () => {
   return (
-    <div>
+    <div className="app-container">
       <UserLogin />
     </div>
   );
