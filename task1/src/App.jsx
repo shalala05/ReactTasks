@@ -4,7 +4,7 @@ import Button from './components/Button';
 const App = () => {
   return (
     <div>
-      <h1>Button Example</h1>
+      <h1>Button numunesi</h1>
       <Button />
     </div>
   );
