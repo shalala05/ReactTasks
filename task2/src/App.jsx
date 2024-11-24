@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import ClickButton from './Button';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <p>This is my paragraph da qaqa</p>
-    </>
-  )
-}
+    <div>
+      <h1>Button numunesi</h1>
+      <ClickButton />
+    </div>
+  );
+};
 
-export default App
+export default App;
