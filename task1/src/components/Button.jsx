@@ -1,10 +1,15 @@
-import React from 'react';
-const Button = () => {
-    const handleClick = () => {
-        console.log('Button click!');
+import React, { Component } from "react";
+class Button extends Component {
+    handleClick = () => {
+        console.log("Button click!");
     };
-    return (
-        <button className='clickButton' onClick={handleClick}>Click Me</button>
-    );
-};
+    render() {
+        return (
+            <button className="clickButton" onClick={this.handleClick}>
+                Click Me
+            </button>
+        );
+    }
+}
+
 export default Button;
